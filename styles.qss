@@ -1,0 +1,66 @@
+        /* Main window styles */
+QMainWindow {
+    background-color: #f5f7fa;
+}
+
+/* Header styles */
+QLabel#headerTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 15px;
+}
+
+/* Menu card styles */
+/* Menu card styles - diperbesar */
+QWidget[id^="menuCard"] {
+    background-color: white;
+    border-radius: 15px;  /* Border lebih rounded */
+    border: 2px solid #ddd;
+    padding: 15px;
+}
+
+QLabel#menuCardTitle {
+    font-size: 18px;  /* Judul lebih besar */
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+QLabel#menuCardDesc {
+    font-size: 14px;  /* Deskripsi lebih besar */
+    color: #7f8c8d;
+    margin: 10px 0;
+}
+
+QPushButton#menuCardButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;  /* Button lebih rounded */
+    padding: 8px 15px;   /* Button lebih besar */
+    font-size: 14px;     /* Font button lebih besar */
+    min-width: 80px;
+}
+
+QPushButton#menuCardButton:hover {
+    background-color: #2980b9;
+}
+
+QWidget[id^="menuCard"]:hover {
+    border: 1px solid #3498db;
+    background-color: #f8f9fa;
+}
+
+/* Page content styles */
+QWidget#trackingPage,
+QWidget#borrowingPage,
+QWidget#returningPage,
+QWidget#purchasingPage,
+QWidget#managementPage {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}           
